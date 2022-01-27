@@ -1,0 +1,32 @@
+{
+  "name": "courses-management-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TranPhuocBaoCuong/nodejs-courses.git"
+  },
+  "keywords": [
+    "nodejs",
+    "courses",
+    "nodejs-courses"
+  ],
+  "author": "cuongtran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TranPhuocBaoCuong/nodejs-courses/issues"
+  },
+  "homepage": "https://github.com/TranPhuocBaoCuong/nodejs-courses#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
+}
